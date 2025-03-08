@@ -12,6 +12,7 @@ library(ggspatial)
 
 galah_config(email = "dgoel2099@gmail.com")
 
+# Get Platypus occurrences
 platypus_taxon <- search_taxa("Ornithorhynchus anatinus")
 
 platypus_data <- galah_call() |>
