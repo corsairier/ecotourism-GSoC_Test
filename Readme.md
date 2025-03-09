@@ -6,7 +6,7 @@ It plots the occurrence data in Australia from the Atlas of Living Australia usi
 
 The plot looks like the following:-
 
-![RPlot](./Rplot.png)
+![RPlot](./images/Rplot.png)
 
 ## MEDIUM TASK
 
@@ -59,4 +59,4 @@ The final map generated shows:
 - **Purple Region**: Densest platypus sighting area (KDE approach).
 - **Green Dot**: Nearest weather station to the densest platypus sighting area.
 
-![Platypus Sightings and Weather Station](./map.png)
+![Platypus Sightings and Weather Station](./images/map.png)
