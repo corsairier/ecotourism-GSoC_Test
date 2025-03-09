@@ -11,11 +11,11 @@ The plot looks like the following:-
 ## MEDIUM TASK
 
 ### Overview
-In this test we analyzes platypus sightings in Victoria, Australia, and retrieves weather data (temperature and precipitation) from the nearest weather station located in the **densest platypus sighting area**.
+In this test we analyze platypus sightings in Victoria, Australia, and retrieve weather data (temperature and precipitation) from the nearest weather station located in the **densest platypus sighting area**.
 
 ### Methodology
 #### 1. **Plotting Platypus Occurrences**
-We use the **Galah R package** to obtain platypus occurrence records for the year **2024** and plot them on a map of Australia.
+We use the **galah R package** to obtain platypus occurrence records for the year **2024** and plot them on a map of Australia.
 
 #### 2. **Finding the Central Location**
 Using **Google**, I determined a central coordinate of Victoria, Australia:

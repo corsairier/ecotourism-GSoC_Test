@@ -80,7 +80,7 @@ nearest_station_id <- nearest_station$STNID
 weather_data <- get_GSOD(years = 2024, station = nearest_station_id)
 
 # Select only precipitation (PRCP) and temperature (TEMP) columns
-weather_filtered <- weather_data[, c("YEARMODA", "TEMP", "PRCP")]
+weather_filtered <- weather_data[, c("YEARMODA", "TEMP", "PRCP", "PRCP_ATTRIBUTES")]
 
 # Print first few rows
 print(weather_filtered)
